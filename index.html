@@ -20,6 +20,11 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!-- SEO -->
+        <meta name="keywords" content="portfólio, desenvolvedor, front-end, projetos, Lucas Melo">
+        <meta name="author" content="Lucas Melo">
+
+
     </head>
 
     <body>
@@ -27,60 +32,47 @@
             <nav class="header__nav">
                 <ul class="menu menu--principal">
                     <li class="menu__item">
-                        <a class="menu__link active" href="#home"><span class="menu__text">Home</span></a>
+                        <a class="menu__link active" href="#"><span class="menu__text">Home</span></a>
                     </li>
-
                     <li class="menu__item">
                         <a class="menu__link" href="#projetos"><span class="menu__text">Projetos</span></a>
                     </li>
-
                     <li class="menu__item">
                         <a class="menu__link" href="#sobre"><span class="menu__text">Sobre</span></a>
                     </li>
-
                     <li class="menu__item">
-                        <a class="menu__link" href="#contato"><span class="menu__text">Contato<span></a>
+                        <a class="menu__link" href="#contato"><span class="menu__text">Contato</span></a>
                     </li>
-
                 </ul>
-
             </nav>
 
             <div class="header__brand">
                 <img class="brand__logo" src="assets/imagens/logo.png" alt="Logomarca">
             </div>
-
             <div class="header__toggle">
                 <i id="toggleTheme" class="bi bi-sun"></i>
             </div>
-
         </header>
 
         <nav class="nav--mobile">
             <ul class="menu menu--mobile">
-
                 <li class="menu__item">
                     <a class="menu__link active" href="#home"><i class="menu__icon bi bi-house-door"></i><span
                             class="menu__text">Home</span></a>
                 </li>
-
                 <li class="menu__item">
                     <a class="menu__link" href="#projetos"><i class="menu__icon bi bi-window-stack"></i><span
                             class="menu__text">Projetos</span></a>
                 </li>
-
                 <li class="menu__item">
                     <a class="menu__link" href="#sobre"><i class="menu__icon bi bi-person"></i><span
                             class="menu__text">Sobre</span></a>
                 </li>
-
                 <li class="menu__item">
                     <a class="menu__link" href="#contato"><i class="menu__icon bi bi-envelope"></i><span
                             class="menu__text">Contato</span></a>
                 </li>
-
             </ul>
-
         </nav>
 
         <main>
@@ -89,53 +81,244 @@
                 <p>Lucas Melo, Recife - PE, Desenvolvedor Front-end.</p>
                 <ul class="menu menu-social">
                     <li>
-                        <a class="menu__link" href="">
+                        <a class="menu__link" href="https://github.com/LucasClementeMelo">
                             <i class="menu__icon bi bi-github"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="menu__link" href="">
+                        <a class="menu__link" href="https://www.linkedin.com/in/lucasclementemelo/">
                             <i class="menu__icon bi bi-linkedin"></i>
                         </a>
                     </li>
                 </ul>
-                <button class="btn btn--primary">
-                    <span>Ver Projetos</span>
-                    <i class="bi bi-arrow-down-right"></i>
-                </button>
+                <a href="#projetos" target="_blank">
+                    <button class="btn btn--primary">
+                        <span>Ver Projetos</span>
+                        <i class="bi bi-arrow-down-right"></i>
+                    </button>
+                </a>
             </div>
             <div class="main__content2">
-                <iframe src="https://www.youtube.com/embed/HXKz2-Sohfo?si=dYLznGQ_D42J5QPg"
+                <iframe src="https://www.youtube.com/embed/lM7k-1sRwmc?si=8eaEn8akxY2PtcVn"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </main>
 
-        <section class="skills">
+        <section class="technologies">
             <h2>Conhecimento nas principais tecnologias</h2>
-            <ul class="skills__list">
-                <li class="skills__item">
-                    <img class="skills__logo" src="assets/imagens/Angular.svg" alt="Logo Angular">
+            <ul class="technologies__list">
+                <li class="technologies__item">
+                    <img class="technologies__logo" src="assets/imagens/technologies/Angular.svg" alt="Logo Angular">
                 </li>
-                <li class="skills__item">
-                    <img class="skills__logo" src="assets/imagens/Bootstrap.svg" alt="Logo Bootstrap">
+                <li class="technologies__item">
+                    <img class="technologies__logo" src="assets/imagens/technologies/Bootstrap.svg"
+                        alt="Logo Bootstrap">
                 </li>
-                <li class="skills__item">
-                    <img class="skills__logo" src="assets/imagens/TypeScript.svg" alt="Logo TypeScript">
+                <li class="technologies__item">
+                    <img class="technologies__logo" src="assets/imagens/technologies/TypeScript.svg"
+                        alt="Logo TypeScript">
                 </li>
             </ul>
         </section>
 
+        <section id="projetos" class="projects">
+            <h2>Projetos</h2>
+            <div class="projects__container">
+                <div class="projects__card">
+                    <img class="card__cover" src="assets/imagens/projects/G&DComercial.jpg" alt="Capa site G&D">
+                    <div class="card__body">
+                        <h3 class="card__title">G&D Comercial Site Ecommerce</h3>
+                        <p class="card__description">Ecommerce de vendas.</p>
+                        <ul class="card__list">
+                            <li>História da empresa;</li>
+                            <li>Carrinho de compras;</li>
+                            <li>Filtragem por preço e categoria;</li>
+                        </ul>
+                        <ul class="technologies__list">
+                            <li class="technologies__item">
+                                <img class="technologies__logo" src="assets/imagens/technologies/Angular.svg"
+                                    alt="Logo Angular">
+                            </li>
+                            <li class="technologies__item">
+                                <img class="technologies__logo" src="assets/imagens/technologies/Bootstrap.svg"
+                                    alt="Logo Bootstrap">
+                            </li>
+                            <li class="technologies__item">
+                                <img class="technologies__logo" src="assets/imagens/technologies/TypeScript.svg"
+                                    alt="Logo TypeScript">
+                            </li>
+                        </ul>
+
+                        <div class="card__buttons">
+                            <a href="https://gdcomercial.com.br/index.html" target="_blank">
+                                <button class="btn btn--primary">
+                                    <span>Prévias</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/LucasClementeMelo/Projeto-G-D-Comercial" target="_blank">
+                                <button class="btn">
+                                    <span>Repositório</span>
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <div class="about__content1">
+                <img class="about__photo" src="assets/imagens/Foto Perfil.jpg" alt="Foto Perfil">
+                <div class="about__description">
+                    <h2>Sobre mim</h2>
+                    <p>Lucas Melo. Apaixonado por cinema e tecnologia, meu primeiro com tecnologia foi em 2020. Sou um
+                        profissional em início de carreira, apaixonado por desenvolvimento. Durante minha formação e
+                        estudos
+                        independentes, desenvolvi habilidades práticas em python e concluí projetos que me ajudaram a
+                        consolidar meu aprendizado.
+                    </p>
+                    <div class="about__icons">
+                        <i class="bi bi-translate"></i>
+                        <span>Inglês: Básico</span>
+                    </div>
+                    <div class="description__buttons">
+                        <a href="https://www.linkedin.com/in/lucasclementemelo/" target="_blank">
+                            <button class="btn btn--primary">
+                                <span>Conecte-se Comigo</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="">
+                            <button class="btn">
+                                <span>Currículo</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about__content2">
+                <div class="col1">
+                    <div class="row1">
+                        <h3>Formação</h3>
+                        <h4>Análise e Desenvolvimento de Sistemas</h4>
+                        <span>Fev 2020 - Dez 2022</span>
+                        <div class="about__icons">
+                            <i class="bi bi-bank"></i>
+                            <span>FIRC – Faculdade Católica Imaculada Conceição do Recife</span>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <h3>Experiências</h3>
+                        <h4>Principiante</h4>
+                        <span>Em busca da minha primeira oportunidade profissional e trago comigo uma grande vontade de
+                            aprender, crescer e
+                            contribuir.</span>
+                    </div>
+                </div>
+                <div class="col2">
+                    <h3>Cursos</h3>
+                    <div id="accordion">
+                        <div class="accordion__item active">
+                            <button class="accordion__header start">
+                                <span>Versionamento de Código com Git e GitHub</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </button>
+                            <div class="accordion__body">
+                                <p>
+                                    Digital Innovation One. Jan 2024. 2h.
+                                </p>
+                                <p>
+                                    O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em
+                                    diferentes sistemas
+                                    operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo
+                                    desde a
+                                    criação e clonagem
+                                    até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e
+                                    sincronizar alterações
+                                    com o repositório remoto.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span>Linux: Introdução ao Sistema Operacional</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </button>
+                            <div class="accordion__body">
+                                <p>
+                                    Digital Innovation One. Jan 2023. 10h.
+                                </p>
+                                <p>
+                                    Introdução ao Linux, como instalar e configurar o ambiente de desenvolvimento, como
+                                    navegar pelos arquivos, pastas e sistema operacional.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header end">
+                                <span>Conceitos Fundamentais de IA</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </button>
+                            <div class="accordion__body end">
+                                <p>
+                                    Digital Innovation One. Mar 2024. 1h.
+                                </p>
+                                <p>
+                                    Objetivo introduzir os principais conceitos e fundamentos relacionados à
+                                    Inteligência Artificial (IA), proporcionando
+                                    uma base sólida, que busca criar sistemas capazes de realizar tarefas que
+                                    normalmente exigiriam inteligência humana, como aprendizado,
+                                    raciocínio, e tomada de decisões.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contate-me</h2>
+            <p>Estou disponível para serviços e novas conexões. Contate-me via
+                e-mail e conecte-se comigo através das minhas redes sociais.
+            </p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/LucasClementeMelo" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/lucasclementemelo/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="mailto:lucas_melo@msn.com" aria-label="Enviar e-mail para Lucas Melo">
+                <button class="btn btn--primary">
+                    <span>Enviar e-mail</span>
+                </button>
+            </a>
+        </section>
+
         <footer>
             <p>
-                © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero"
-                da
-                <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por
-                <a href="https://github.com/LucasClementeMelo" target="_blank">Lucas Melo</a>.
+                © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero", da<a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por<a href="https://github.com/LucasClementeMelo" target="_blank">Lucas Melo</a>.
             </p>
         </footer>
 
+        <!-- JavaScript -->
         <script defer src="assets/js/scripts.js"></script>
 
     </body>
